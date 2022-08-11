@@ -1,0 +1,2 @@
+# PostToBingIndexNow
+typecho发布文章自动推送到Bing站长平台插件
