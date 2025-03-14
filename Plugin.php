@@ -97,7 +97,7 @@ function post_to_bing_index_now($content,$classa) {
     
     $request = new EasyHttp();
     $key = Typecho_Widget::widget('Widget_Options')->plugin('PostToBingIndexNow')->key;          //key
-    $api_url = 'https://www.bing.com/indexnow';
+    $api_url = 'https://api.indexnow.org';
     $arr=parse_url($classa->permalink);
     $key_url=$arr['scheme'].'://'.$arr['host'].'/'.$key.'.txt';
     $body = json_encode(array(
